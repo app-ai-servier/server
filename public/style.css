@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { font: 15px/1.5 system-ui, sans-serif; background: #f5f6f8; color: #222; margin: 0; }
+main { max-width: 720px; margin: 40px auto; padding: 0 16px; }
+h1 { margin: 0 0 20px; }
+form { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+input, select, button { font: inherit; padding: 8px 10px; border: 1px solid #ccd; border-radius: 6px; background: #fff; }
+#name { flex: 1 1 160px; }
+#description { flex: 2 1 220px; }
+button { cursor: pointer; }
+form button { background: #2563eb; color: #fff; border-color: #2563eb; }
+#filters { display: flex; gap: 6px; margin-bottom: 12px; }
+#filters button.on { background: #222; color: #fff; border-color: #222; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { display: flex; align-items: center; gap: 12px; background: #fff; border: 1px solid #e3e5ea; border-radius: 8px; padding: 12px; margin-bottom: 8px; }
+li .info { flex: 1; min-width: 0; }
+li .name { font-weight: 600; }
+li .desc { color: #667; font-size: 13px; overflow-wrap: anywhere; }
+li select.planned { background: #eef2ff; }
+li select.active { background: #fff7e0; }
+li select.done { background: #e6f7ec; }
+li .del { color: #c0392b; }
+#empty { color: #889; text-align: center; }
